@@ -1,0 +1,59 @@
+.landing-view {
+    margin: 120px 15%;
+}
+
+.landing-title {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.landing-description {
+    margin: 10px 0 0 0;
+    font-size: 1.4em;
+}
+
+.landing {
+    position: relative
+}
+
+.prima-button-filled:hover {
+    cursor: pointer;
+    background-color: #00bcd4;
+}
+
+.prima-button-filled {
+    padding: 15px 30px;
+    font-weight: 900;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #1983e4;
+    border-color: transparent;
+    color: white;
+}
+
+.prima-button:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #1983e4;
+    cursor: pointer;
+}
+
+.prima-button {
+    padding: 15px 30px;
+    font-weight: 900;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border-color: #1983e4;
+    color: #1983e4;;
+}
+
+.landing-buttonset {
+    position:absolute; 
+    bottom: 0;
+    display: table;
+}
+
+.landing-button {
+    display: table-cell;
+    padding: 0 15px 0 0;
+}
