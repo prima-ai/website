@@ -9,6 +9,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { NavbarComponent } from './partials/navbar/navbar.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { HubComponent } from './pages/hub/hub.component';
+import { GetstartedComponent } from './pages/getstarted/getstarted.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { ProfileComponent } from './pages/hub/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HubComponent } from './pages/hub/hub.component';
     AboutComponent,
     NavbarComponent,
     FooterComponent,
-    HubComponent
+    HubComponent,
+    GetstartedComponent,
+    BlogComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

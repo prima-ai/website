@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hub.component.scss']
 })
 export class HubComponent implements OnInit {
-
-  constructor() { }
+  tags = 'yikes';
+  constructor() { 
+    
+  }
 
   ngOnInit() {
+    this.fillTags();
+  }
+
+  fillTags() {
+    let tagsection = document.getElementById('tags');
   }
 
 }
